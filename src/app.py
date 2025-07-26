@@ -48,7 +48,7 @@ def get_disease_info(disease_name):
         # For other diseases, use the API
 
 
-    api_key = 'AIzaSyCE3PRBPyCQRbNqrJ0hqOjdnPoED3lL8Xs'  # Replace with your actual API key
+    api_key = 'YOUR_API_KEY'  # Replace with your actual API key
     url = f"{GEMINI_API_URL}?key={api_key}"
     
     # JSON body for the POST request
